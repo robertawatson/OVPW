@@ -2,9 +2,9 @@
 # Chapter 1
 # Contract Settlement & Cashflow
 
-import pandas as pd
+import pandas as pd #pylint: disable=E0401
 
-df = pd.dataframe(columns = ['Trade Sequence','Stock Price','Trade','Open Position Share','Cash Flow','Cumulative Cash Flow','Realized P&L','Unrealized P&L','Total Cumulative P&L'])
+df = pd.DataFrame(columns = ['Trade Sequence','Stock Price','Trade','Open Position Share','Cash Flow','Cumulative Cash Flow','Realized P&L','Unrealized P&L','Total Cumulative P&L'])
 def main():
     pass
 
