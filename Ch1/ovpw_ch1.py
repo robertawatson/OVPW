@@ -18,9 +18,6 @@ def welcome():
 
 def calc():
     pass
-    
-def data(): # this may not be needed
-    pass
 
 def readout(): 
     print()
